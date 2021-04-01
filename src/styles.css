@@ -1,0 +1,82 @@
+#table{
+    position: absolute;
+    height: 768px;
+    width: 100%;
+    top:50%;
+    margin-top:-384px;
+}
+#board{
+    position: absolute;
+    height: 768px;
+    width: 768px;
+    left:50%;
+    margin-left:-384px;
+    border: 5px solid;
+}
+.square{
+    height: 96px;
+    width: 96px;
+    position: absolute;
+}
+.brown{
+    background-color: brown;
+}
+.burlywood{
+    background-color: burlywood;
+}
+.green{
+    background-color: green;
+}
+
+.piece{
+    width: 95px;
+    height: 95px;
+    position: absolute;
+}
+
+.dot {
+    position: absolute;
+    height: 32px;
+    width: 32px;
+    background-color: rgb(3, 73, 3);
+    border-radius: 50%;
+    top: 32px;
+    left: 32px;
+  }
+.crownedPawn {
+    position: absolute;
+    height: 384px;
+    width: 96px;
+    background-color: green;
+}
+.movesScrollBox{
+    position: absolute;
+    height: 288px;
+    width: 197px;
+    border: 5px solid;
+    top:50%;
+    margin-top: -144px;
+    left:50%;
+    margin-left: 389px;
+    overflow: auto;
+}
+.playPast{
+    height: 48px;
+    width: 96px;
+    font-size: 40px;
+    text-align: center;
+    font-family:cursive;
+}
+.menssageWins{
+    position: absolute;
+    height: 192px;
+    width: 100%;
+    font-size: 80px;
+    font-family: cursive;
+    text-align: center;
+    top:50%;
+    left: 50%;
+    margin-top: -96px;
+    margin-left: -384px;
+    color: grey;
+}

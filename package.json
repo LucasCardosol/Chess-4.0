@@ -1,0 +1,17 @@
+{
+  "name": "Chess",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.13.0",
+    "@babel/core": "^7.13.8",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.24.3",
+    "webpack-cli": "^4.5.0",
+    "@babel/plugin-syntax-class-properties": "^7.12.13"
+  },
+  "scripts": {
+    "dev": "webpack --mode=development -w"
+  }
+}
